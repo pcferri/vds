@@ -2313,7 +2313,7 @@ button.navbar-toggler:focus{
     background:#f7f8f9
 }
 .step-content{
-    padding:70px 30px 70px 0
+    padding-top:30px;
 }
 .step-img{
     background-image:url(../img/step/01.jpg);
@@ -3428,12 +3428,17 @@ button.navbar-toggler:focus{
     }
 }
 .partner-area .partner-wrapper img{
-    padding:20px
+    padding:10px
 }
 .partner-item{
     margin-bottom:40px;
     text-align:center
 }
+.partner-item img{
+	border-radius:100px;
+	width:100px;
+}
+
 .instructor-item{
     background:#fff;
     text-align:center;
