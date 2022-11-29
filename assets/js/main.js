@@ -86,7 +86,7 @@
         }
     });
     if ($("#countdown").length) {
-        $("#countdown").countdown("2022/11/28 19:00:00", function (event) {
+        $("#countdown").countdown("2022/11/29 19:00:00", function (event) {
             $(this).html(
                 event.strftime(
                     "" +

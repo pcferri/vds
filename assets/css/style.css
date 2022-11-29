@@ -3456,12 +3456,13 @@ button.navbar-toggler:focus{
     border-radius:50%
 }
 .instructor-tag{
-    background:#d7bb6d;
-    color:#fff;
-    padding:1px 15px;
-    border-radius:50px;
-    display:inline-block;
-    margin:15px 0
+	background: #d7bb6d;
+	color: #fff;
+	padding: 1px 10px;
+	border-radius: 6px;
+	display: inline-block;
+	margin: 5px 0;
+	font-size: 12px;
 }
 .instructor-name{
     color:#202029;
