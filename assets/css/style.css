@@ -3864,7 +3864,7 @@ button.navbar-toggler:focus{
     top:1px;
     text-align:center;
     font-size:16px;
-    color:#fff
+    color:#ddd
 }
 .site-breadcrumb .breadcrumb-menu li:first-child{
     margin-left:0
@@ -3885,8 +3885,8 @@ button.navbar-toggler:focus{
 }
 @media(max-width:991px){
     .site-breadcrumb{
-        padding-top:190px;
-        padding-bottom:120px
+		padding-top: 103px;
+		padding-bottom: 40px;
     }
 }
 .pagination{
