@@ -3814,16 +3814,23 @@ button.navbar-toggler:focus{
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    background-color:#edeef3;
+    background-color:#2b2c2d;
     text-align:center;
     position:relative;
     padding-top:100px;
     padding-bottom:100px;
     z-index:1
 }
+
+.site-breadcrumb h6, .site-breadcrumb h4,.site-breadcrumb h2{
+	color:#fff;
+}
+.site-breadcrumb p{
+	color:#ddd;
+}
 .site-breadcrumb .breadcrumb-title{
     font-size:40px;
-    color:#202029;
+    color:#fff;
     font-weight:700;
     margin-bottom:10px;
     text-transform:capitalize
@@ -3836,12 +3843,12 @@ button.navbar-toggler:focus{
     position:relative;
     display:inline-block;
     margin-left:25px;
-    color:#202029;
+    color:#fff;
     font-weight:400;
     text-transform:capitalize
 }
 .site-breadcrumb .breadcrumb-menu li a{
-    color:#202029;
+    color:#fff;
     -moz-transition:all .5s ease-in-out;
     -webkit-transition:all .5s ease-in-out;
     -ms-transition:all .5s ease-in-out;
@@ -3857,7 +3864,7 @@ button.navbar-toggler:focus{
     top:1px;
     text-align:center;
     font-size:16px;
-    color:#202029
+    color:#fff
 }
 .site-breadcrumb .breadcrumb-menu li:first-child{
     margin-left:0
