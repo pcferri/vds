@@ -48,12 +48,12 @@
     });
     $(".testimonial-slider").owlCarousel({
         loop: true,
-        margin: 30,
+        margin: 0,
         nav: false,
         navText: ["<i class='icofont-long-arrow-left'></i>", "<i class='icofont-long-arrow-right'></i>"],
         dots: true,
         autoplay: true,
-        responsive: { 0: { items: 1 }, 600: { items: 2 }, 1000: { items: 2 } },
+        responsive: { 0: { items: 1 }, 600: { items: 3 }, 1000: { items: 3 } },
     });
     $(window).on("load", function () {
         $(".preloader").fadeOut("slow");
