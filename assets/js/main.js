@@ -180,37 +180,15 @@
 		$(".profile-setting-btn").click(function () {
 			$(".profile-img-file").click();
 		});
-		
-		
-		
-		
-		var formNewsVds = $('#news-vds');
-		$(formNewsVds).submit(function(e) {
-			e.preventDefault();
-			$("#cmdEnviar").prop("disabled", true);
-			var formData = $(formNewsVds).serialize();
-			$.ajax({
-				type: 'POST',
-				url: "https://mautic.dienimoraes.com.br/form/submit?formId=20",
-				data: formData
-			})
-			.done(function(response) {
-				alert(JSON.parse(response).message);
-				$('#news-vds input').val('');
-				$("#cmdEnviar").prop("disabled",false);			
-			})
-			.fail(function(data, err) {
-				$("#cmdEnviar").prop("disabled",false);
-				if (err == undefined) {
-					alert(data.responseText);
-				} else {
-					alert('Desculpe, ocorreu algum problema, tente novamente.');
-				}				
-			});
-		});
-		
-		
-		
+
+		var url = new URL(window.location.href);
+		var msg = url.searchParams.get("msg");
+		if(msg != undefined){
+			$(".form-messege").text(msg);
+			$([document.documentElement, document.body]).animate({
+				scrollTop: $(".form-messege").offset().top - 400
+			}, 200);
+		}
     });
 	
 	
