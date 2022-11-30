@@ -1398,7 +1398,7 @@ button.navbar-toggler:focus{
     background:#e34444
 }
 .course-img img{
-    border-radius:5px
+    border-radius:5px;	
 }
 .course-meta{
     display:flex;
