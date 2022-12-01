@@ -2297,7 +2297,7 @@ button.navbar-toggler:focus{
     height:75px;
     width:75px;
     text-align:center;
-    background:#d7bb6d;
+    background:transparent;
     position:absolute;
     border-radius:50%;
     top:50%;
@@ -4828,6 +4828,6 @@ body.rtl-mode .price-wrapper{
 
 @media all and (max-width:767px){
     .course-single-wrapper .video-wrapper{
-        height:250px
+        height:250px !important;
     }
 }
