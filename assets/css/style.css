@@ -3085,13 +3085,14 @@ button.navbar-toggler:focus{
     transition:all .5s ease-in-out
 }
 .team-item img{
-    border-radius:5px
+    border-radius:5px;
+	min-width: 279px;
 }
 .team-content{
     position:absolute;
     left:20px;
     right:20px;
-    bottom:-50px;
+    bottom:-100px;
     background:#fff;
     padding:15px 10px;
     border-radius:5px;
