@@ -4832,3 +4832,9 @@ body.rtl-mode .price-wrapper{
         height:250px !important;
     }
 }
+
+
+
+.dropdown-item.active, .dropdown-item:active{
+	background-color: #d7bb6d;
+}
