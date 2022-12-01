@@ -2304,11 +2304,7 @@ button.navbar-toggler:focus{
     left:50%;
     transform:translate(-50%,-50%)
 }
-@media all and (max-width:767px){
-    .video-wrapper{
-        height:250px
-    }
-}
+
 .step-area{
     position:relative;
     background:#f7f8f9
@@ -4828,3 +4824,10 @@ body.rtl-mode .price-wrapper{
 	}	
 }
 
+
+
+@media all and (max-width:767px){
+    .course-single-wrapper .video-wrapper{
+        height:250px
+    }
+}
