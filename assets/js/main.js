@@ -126,7 +126,7 @@
 			}
 		});
 		if ($("#countdown").length) {
-			$("#countdown").countdown("2022/11/29 19:00:00", function (event) {
+			$("#countdown").countdown("2022/12/05 06:00:00", function (event) {
 				$(this).html(
 					event.strftime(
 						"" +
@@ -141,11 +141,11 @@
 							"</div>" +
 							'<div class="col countdown-single">' +
 							'<h2 class="mb-0">%M</h2>' +
-							'<h5 class="mb-0">Minutos</h5>' +
+							'<h5 class="mb-0">Min</h5>' +
 							"</div>" +
 							'<div class="col countdown-single">' +
 							'<h2 class="mb-0">%S</h2>' +
-							'<h5 class="mb-0">Segundos</h5>' +
+							'<h5 class="mb-0">Seg</h5>' +
 							"</div>" +
 							"</div>"
 					)
