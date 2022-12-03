@@ -4539,16 +4539,14 @@ body.rtl-mode .price-wrapper{
     transition:all .5s ease-in-out
 }
 .footer-social .facebook-link a i{
-    background:#3b5999
+    background:#0771e6
 }
-.footer-social .twitter-link a i{
-    background:#55acee
-}
-.footer-social .pinterest-link a i{
+
+.footer-social .youtube-link a i{
     background:#bd081c
 }
-.footer-social .linkedin-link a i{
-    background:#ea4c89
+.footer-social .instagram-link a i{
+    background:#a203d5
 }
 .footer-social li a i:hover{
     transform:translateY(-5px)
