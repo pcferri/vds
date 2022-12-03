@@ -1500,15 +1500,21 @@ button.navbar-toggler:focus{
     font-weight:500;
     color:#757f95
 }
-.course-price del{
-    margin-right:5px;
-    font-size:15px;
-    color:#757f95
-}
-.course-price span{
+.course-price .parcelado{
     font-weight:700;
     font-size:18px;
-    color:#ff6636
+    color:#ff6636;
+    
+}
+
+.course-price .parcelado span{    
+    font-size:12px;
+    color:#757f95;
+	font-weight:500;
+}
+.course-price span{
+    font-size:15px;
+    color:#757f95
 }
 .course-sidebar{
     padding:0 20px;
