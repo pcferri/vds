@@ -206,15 +206,16 @@ label{
     position:relative
 }
 .site-title{
-    font-weight:700;
-    text-transform:capitalize;
-    font-size:35px;
-    color:#202029;
-    margin-top:5px;
-    margin-bottom:0
+	font-weight: 700;
+	text-transform: initial;
+	font-size: 35px;
+	color: #202029;
+	margin-bottom: 0;
 }
 .site-title span{
-    color:#d7bb6d
+    color: #d7bb6d;
+    font-size: 35px;
+    text-transform: initial;    
 }
 .site-heading p{
     font-size:16px
