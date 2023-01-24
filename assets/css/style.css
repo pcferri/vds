@@ -2187,7 +2187,7 @@ button.navbar-toggler:focus{
     box-shadow:0 30px 40px 0 rgb(3 24 128/20%)
 }
 .feature-area2 .feature-icon{
-    color:#fff;
+    color:#d7bb6d;
     width:unset;
     height:unset;
     line-height:1;
@@ -2196,22 +2196,22 @@ button.navbar-toggler:focus{
     margin-bottom:25px
 }
 .feature-area2 .feature-content h4{
-    color:#fff
+    color:#d7bb6d
 }
 .feature-area2 .feature-content p{
     color:#fff
 }
 .feature-item-bg-1{
-    background:#0cae74
+    background:#2b2c2d;
 }
 .feature-item-bg-2{
-    background:#8007e6
+    background:#2b2c2d;
 }
 .feature-item-bg-3{
-    background:#dd246e
+    background:#2b2c2d;
 }
 .feature-item-bg-4{
-    background:#2d69f0
+    background:#2b2c2d;
 }
 .cta-area{
     position:relative
