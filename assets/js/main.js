@@ -21,9 +21,9 @@
 		}, 2000);
 	  });
 	}
+
 	
-	
-    $(window).on("load", function () {
+    function processar_inicio_tela() {
 		
 		
 		$(".dropdown-menu a.dropdown-toggle").on("click", function (e) {
@@ -191,7 +191,11 @@
 				scrollTop: $(".form-messege").offset().top - 400
 			}, 200);
 		}
-    });
+    }
+	
+	 $(window).on("load", function () {
+		processar_inicio_tela()
+	 });
 	
 	
 	
